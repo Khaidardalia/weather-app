@@ -45,8 +45,7 @@ function formatDate(timestamp) {
           <div class="weather-forecast-date">${formatDay(forecastDay.dt)}</div>
           <img
             src="http://openweathermap.org/img/wn/${
-              forecastDay.weather[0].icon
-            }@2x.png"
+              forecastDay.weather[0].icon}@2x.png"
             alt=""
             width="42"
           />
@@ -114,4 +113,4 @@ function formatDate(timestamp) {
   let form = document.querySelector("#search-form");
   form.addEventListener("submit", handleSubmit);
   
-  search("New York");
+  search("Dubai");
